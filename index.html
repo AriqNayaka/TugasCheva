@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>tugas1</title>
+    <style>
+      * {
+        font-family: Roboto;
+        padding: 0;
+        margin: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <main style="width: full; height: 100vh; display: flex; align-items: center; justify-content: center">
+      <div style="width: 20%; height: 55%; padding: 1rem 2rem 1rem 2rem; background-color: lightslategray; border-radius: 10px 0px 0px 10px; display: flex; flex-direction: column; align-items: center">
+        <h1>To-Do-List</h1>
+        <form style="width: 100%">
+          <div style="width: 100%; display: flex; flex-direction: column; margin-top: 1.5rem">
+            <label style="font-weight: bold" for="namatugas">Nama Tugas</label>
+            <input style="border: none; outline: none; padding: 0.5rem 1rem 0.5rem 1rem; margin-top: 0.7rem; border-radius: 5px" type="text" id="namatugas" placeholder="Masukan nama tugas" />
+          </div>
+          <div style="width: 100%; display: flex; flex-direction: column; margin-top: 1rem">
+            <label style="font-weight: bold" for="deskripsi">Deskripsi Tugas</label>
+            <textarea style="border: none; outline: none; padding: 0.5rem 1rem 0.5rem 1rem; margin-top: 0.7rem; border-radius: 5px" type="text" id="deskripsi" placeholder="Masukan deskripsi tugas"></textarea>
+          </div>
+          <div style="width: 100%; display: flex; flex-direction: column; margin-top: 1rem">
+            <label style="font-weight: bold" for="deadline">Deadline Tugas</label>
+            <input style="border: none; outline: none; padding: 0.5rem 1rem 0.5rem 1rem; margin-top: 0.7rem; border-radius: 5px" type="date" id="deadline" placeholder="Masukan deskripsi tugas" />
+          </div>
+          <button style="width: 100%; margin-top: 1rem; padding: 0.5rem 1rem 0.5rem 1rem; background-color: rgb(50, 236, 118); border: none; border-radius: 5px">Tambahkan</button>
+        </form>
+      </div>
+      <div style="width: 20%; height: 55%; padding: 1rem 2rem 1rem 2rem; background-color: lightgray; border-radius: 0px 10px 10px 0px; display: flex; flex-direction: column; align-items: center">
+        <h1>Daftar Tugas</h1>
+        <div style="width: 100%; background-color: white; display: flex; flex-direction: column; border-radius: 10px; padding: 0.5rem 1rem 0.5rem 1rem; margin-top: 1rem">
+          <p><span style="font-weight: bold">Nama Tugas</span>: Belajar HTML</p>
+          <p style="margin-top: 0.3rem"><span style="font-weight: bold">Deskripsi</span>: Memahami struktur dasar HTML</p>
+          <p style="margin-top: 0.3rem"><span style="font-weight: bold">Deadline</span>: 2024-12-15</p>
+        </div>
+        <div style="width: 100%; background-color: white; display: flex; flex-direction: column; border-radius: 10px; padding: 0.5rem 1rem 0.5rem 1rem; margin-top: 0.5rem">
+          <p><span style="font-weight: bold">Nama Tugas</span>: Belajar CSS</p>
+          <p style="margin-top: 0.3rem"><span style="font-weight: bold">Deskripsi</span>: Mempelajari selector dan properti dasar CSS</p>
+          <p style="margin-top: 0.3rem"><span style="font-weight: bold">Deadline</span>: 2024-12-20</p>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
