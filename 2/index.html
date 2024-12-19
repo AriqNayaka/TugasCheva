@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>tugas1</title>
+    <style>
+      * {
+        font-family: Roboto;
+        padding: 0;
+        margin: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <main style="width: 100vw; height: max-content; display: flex; flex-direction: column; align-items: center; justify-content: center; background-color: lightgrey">
+      <h1>To-Do List</h1>
+      <div style="width: max-content; height: max-content; display: flex; flex-direction: column; background-color: white; padding: 0.5rem 1rem 0.5rem 1rem; border-radius: 5px; margin: 1rem 0px 0px 0px; border: 1px solid gray">
+        <div style="display: flex; flex-direction: column; margin: 1rem 0px 1rem 0px">
+          <label style="font-weight: bold" for="namaTugas">Nama Tugas</label>
+          <input style="margin: 1rem 0px 0px 0px; padding: 0.5rem 0.5rem 0.5rem 0.5rem; border-radius: 5px; width: 20rem; border: 1.5px solid gray" type="text" name="namaTugas" id="namaTugas" placeholder="Masukan nama tugas" />
+        </div>
+        <div style="display: flex; flex-direction: column; margin: 0.5rem 0px 1rem 0px">
+          <label style="font-weight: bold" for="namaTugas">Deskripsi Tugas</label>
+          <textarea
+            style="margin: 1rem 0px 0px 0px; padding: 0.5rem 0.5rem 0.5rem 0.5rem; border-radius: 5px; width: 20rem; border: 1.5px solid gray"
+            name="deskripsiTugas"
+            id="deskripsiTugas"
+            placeholder="Masukan deskripsi tugas"
+          ></textarea>
+        </div>
+        <div style="display: flex; flex-direction: column; margin: 0.5rem 0px 1rem 0px">
+          <label style="font-weight: bold" for="namaTugas">Tanggal Tugas</label>
+          <input style="margin: 1rem 0px 0px 0px; padding: 0.5rem 0.5rem 0.5rem 0.5rem; border-radius: 5px; width: 20rem; border: 1.5px solid gray" type="date" name="tanggalTugas" id="tanggalTugas" />
+        </div>
+        <button style="border-radius: 5px; background-color: rgb(15, 119, 255); border: none; padding: 1rem 1rem 1rem 1rem; color: white; font-weight: bold">Tambahkan</button>
+      </div>
+      <div style="width: 90%; height: max-content; display: flex; flex-direction: column; margin: 3rem 0px 3rem 0px">
+        <h1>Daftar Tugas</h1>
+        <div style="display: grid; grid-template-columns: auto auto auto; gap: 10px; width: 100%; height: max-content; padding: 1rem 0px 1rem 0px; justify-content: center">
+          <div style="width: max-content; height: 10rem; background-color: white; border: 1px solid gray; display: flex; flex-direction: column; padding: 1rem 1rem 1rem 1rem; justify-content: space-between; border-radius: 5px">
+            <h2>Belajar HTML dan CSS</h2>
+            <p style="color: rgb(93, 92, 92)">
+              Mempelajari dasar-dasar HTML dan CSS untuk <br />
+              membuat website menarik.
+            </p>
+            <p style="font-size: small; color: gray">Deadline : 2023-10-30</p>
+            <button style="background-color: orangered; width: max-content; padding: 0.5rem 1rem 0.5rem 1rem; border-radius: 5px; border: 1px solid gray">Hapus</button>
+          </div>
+          <div style="width: max-content; height: 10rem; background-color: white; border: 1px solid gray; display: flex; flex-direction: column; padding: 1rem 1rem 1rem 1rem; justify-content: space-between; border-radius: 5px">
+            <h2>Belajar HTML dan CSS</h2>
+            <p style="color: rgb(93, 92, 92)">
+              Mempelajari dasar-dasar HTML dan CSS untuk <br />
+              membuat website menarik.
+            </p>
+            <p style="font-size: small; color: gray">Deadline : 2023-10-30</p>
+            <button style="background-color: orangered; width: max-content; padding: 0.5rem 1rem 0.5rem 1rem; border-radius: 5px; border: 1px solid gray">Hapus</button>
+          </div>
+          <div style="width: max-content; height: 10rem; background-color: white; border: 1px solid gray; display: flex; flex-direction: column; padding: 1rem 1rem 1rem 1rem; justify-content: space-between; border-radius: 5px">
+            <h2>Belajar HTML dan CSS</h2>
+            <p style="color: rgb(93, 92, 92)">
+              Mempelajari dasar-dasar HTML dan CSS untuk <br />
+              membuat website menarik.
+            </p>
+            <p style="font-size: small; color: gray">Deadline : 2023-10-30</p>
+            <button style="background-color: orangered; width: max-content; padding: 0.5rem 1rem 0.5rem 1rem; border-radius: 5px; border: 1px solid gray">Hapus</button>
+          </div>
+          <div style="width: max-content; height: 10rem; background-color: white; border: 1px solid gray; display: flex; flex-direction: column; padding: 1rem 1rem 1rem 1rem; justify-content: space-between; border-radius: 5px">
+            <h2>Belajar HTML dan CSS</h2>
+            <p style="color: rgb(93, 92, 92)">
+              Mempelajari dasar-dasar HTML dan CSS untuk <br />
+              membuat website menarik.
+            </p>
+            <p style="font-size: small; color: gray">Deadline : 2023-10-30</p>
+            <button style="background-color: orangered; width: max-content; padding: 0.5rem 1rem 0.5rem 1rem; border-radius: 5px; border: 1px solid gray">Hapus</button>
+          </div>
+          <div style="width: max-content; height: 10rem; background-color: white; border: 1px solid gray; display: flex; flex-direction: column; padding: 1rem 1rem 1rem 1rem; justify-content: space-between; border-radius: 5px">
+            <h2>Belajar HTML dan CSS</h2>
+            <p style="color: rgb(93, 92, 92)">
+              Mempelajari dasar-dasar HTML dan CSS untuk <br />
+              membuat website menarik.
+            </p>
+            <p style="font-size: small; color: gray">Deadline : 2023-10-30</p>
+            <button style="background-color: orangered; width: max-content; padding: 0.5rem 1rem 0.5rem 1rem; border-radius: 5px; border: 1px solid gray">Hapus</button>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
